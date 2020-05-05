@@ -18,6 +18,19 @@ The admin can log in to change the overall design of the app / params / etc.
 If time, users can log in and save their results / queries to their own files.
 If more time, users can send to each other via this app.
 
+Python 3.0
+PostgreSQL
+Django
+Django Restframework
+Build a simple Django restful API! At least 1 model with full CRUD.
+ Add another model with full CRUD.
+ Add a frontend.
+ Add JWT.
+ Deploy your app. Use Heroku!
+
+
+
+
 ### API
 Twitter API
 
