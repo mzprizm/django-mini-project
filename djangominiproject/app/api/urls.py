@@ -14,7 +14,7 @@ router.register('eps', EpViewSet, basename='eps')
 
 custom_urlpatterns = [
     # url(r'categories/(?P<category_pk>\d+)/recipes$', CategoryRecipes.as_view(), name='category_recipes'),
-    url(r'eps/(?P<ep_pk>\d+)', Eps.as_view(), name='eps'),
+    url(r'eps/(?P<ep_pk>\d+)', EpViewSet.as_view({'get': 'list'}), name='eps'),
     # url(r'eps/(?P<ep_pk>\d+)/recipes$', CategoryRecipes.as_view(), name='category_recipes'),
     # url(r'categories/(?P<category_pk>\d+)/recipes/(?P<pk>\d+)$', SingleCategoryRecipe.as_view(),
     #     name='single_category_recipe'),
